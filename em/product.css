@@ -1,0 +1,131 @@
+body {
+margin: 0;
+  font-family: "Helvetica Neue", arial;
+  background-color: white;
+}
+
+/*
+    NAVIGATION BAR
+*/
+#navigation {
+  list-style-type: none;     /* enlève les puces */
+  margin: 0;
+  padding: 30px;
+  background-color: #f8f8f8; 
+  text-align: center;        /* centre tout le contenu */
+  position: sticky;
+  top: 0;
+}
+
+#navigation li {
+  display: inline-block;     /* les éléments sur une ligne */
+  margin:  25px;            /* espace entre les liens */
+  
+}
+
+#navigation a {
+  color: #555;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+#navigation a:hover {
+  color: black;
+}
+
+#logo {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 2px;
+
+}
+
+/* END OF NAVIGATION BAR*/
+
+.product-container {
+    /*display: flex;*/
+    max-width: 1200px;
+    margin: 100px ;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.product-image {
+    float:left;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    margin-right: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);}
+
+.collection-tag {
+    color: #6b8a99;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    color: #2c5f77;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.product-price {
+    color: #3d7a96;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.product-section {
+    
+    margin-left: 500px ;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    border-left: 4px solid #2c5f77;
+}
+
+.product-section h3 {
+    color: #2c5f77;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.product-section p {
+    color: #4a5568;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+.buy-button {
+    background-color: #2c5f77;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 500px;
+    letter-spacing: 1px;
+}
+
+.buy-button:hover {
+    background-color: #3d7a96;
+}

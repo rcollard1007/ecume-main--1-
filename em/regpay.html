@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Home </title>
+        <link rel="stylesheet" type="text/css" href="register.css"> <!-- Link to the CSS file-->
+    <script src="register.js"></script>
+</head>
+    <body>
+        <ul id="navigation">
+            <li id="logo"> ÉCUME</li>
+            <li><a href="index.html"> HOME</a></li>
+            <li><a href="about.html"> ABOUT US</a></li>
+            <li><a href="faq.html"> FAQ</a></li>
+            <li><a href="shop.html"> SHOP </a></li>
+            <li><a href="sustainibility.html"> SUSTAINIBILITY</a></li>
+            <li><a href="regpay.html"> REGISTER/PAYMENT</a></li>
+        </ul>
+
+             <div class="header-buttons">
+            <button class="signin-btn">Sign in</button>
+            <button class="cart-btn">Cart</button>
+        </div>
+    </div>
+
+     <!-- main content area -->
+     <div class="main-content">
+        <h1 class="main-title">Let's Connect</h1>
+        <p class="subtitle">We'd love to hear from you. Whether you have a question about our products, or want to collaborate, we're here to help.</p>
+        
+        <!-- contact form -->
+        <form name="confirm" onsubmit="return validateForm()" method="post">
+        <div class="contact-form">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" name="name">
+            
+            <label>Email</label>
+            <input type="text" placeholder="Enter your email address" name="email">
+            
+            <label>Message</label>
+            <textarea rows="6" placeholder="Write your message here" name="code"></textarea>
+            
+            <div class="checkbox-container">
+                <input type="checkbox" id="newsletter">
+                <label for="newsletter">Sign up for the Glow Letter for exclusive updates and ethical beauty tips</label>
+            </div>
+            
+            <button type="submit" class="submit-button">Let's Connect with Purpose</button>
+            
+            <p class="social-text">Follow Our Journey</p>
+            <div class="social-icons">
+                <span>📷</span>
+                <span>🌐</span>
+                <span>💼</span>
+            </div>
+        </div>
+        </form>
+     </div>
+
+     <!-- Footer -->
+     <div class="footer">
+        <p id="date">© 2024 Écume. All Rights Reserved. Ethical Beauty for the Modern Soul</p>
+     </div>
+
+     <!-- hidden test section for js functions -->
+     <div style="display:none;">
+        <p id="example">This text will be changed using JavaScript</p>
+        <button type=button id="design" onclick="changehtml() ">Change HTML</button>
+        <button type=button onclick="changecss()">Change CSS</button>
+        
+        <form name="confirm" onsubmit="return validateForm()" method="post">
+            <input type="text" name="code">
+            <input type="submit" name="Submit">
+        </form>
+        
+        <form name="practice" onsubmit="return performOp()" method="post">
+            <input type="text" name="number">
+            <input type="submit" name="Submit">
+        </form>
+        
+        <form name="serviceprice" onsubmit="return performOp()" method="post">
+            <input type="text" name="number">
+            <input type="submit" name="Submit">
+        </form>
+     </div>
+
+</body>
+</html>
