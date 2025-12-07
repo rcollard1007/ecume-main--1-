@@ -3,7 +3,8 @@
     <head>
         <title> Home </title>
         <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to the CSS file-->
-    </head>
+    <script src="carbon.js"></script>
+</head>
     <body>
         <ul id="navigation">
             <li id="logo"> ÉCUME</li>
@@ -71,6 +72,20 @@
     <li>Delivered using low-emission transport</li>
     </ul>
         </div>
+
+   <h3>Carbon Footprint Calculator</h3>
+
+<form name="carbonForm" onsubmit="calculateCarbonFootprint(event)">
+  <label for="distance">Distance (km):</label><br>
+  <input type="number" name="distance" id="distance" required><br><br>
+
+  <label for="weight">Weight (kg):</label><br>
+  <input type="number" name="weight" id="weight" required><br><br>
+
+  <button type="submit">Calculate</button>
+</form>
+
+<p id="result" style="font-weight: bold; margin-top: 10px;"></p>
     </body>
         
 
