@@ -3,6 +3,7 @@
     <head>
         <title> Home </title>
         <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to the CSS file-->
+        <script src="register.js"></script>
     </head>
     <body id="faq">
         <ul id="navigation">
@@ -14,8 +15,8 @@
             <li><a href="sustainibility.html"> SUSTAINIBILITY</a></li>
             <li><a href="regpay.html"> REGISTER/PAYMENT</a></li>
         </ul>
-
-        <h1 id="faq-title"> Frequently Asked Questions</h1>
+<div id="faq-page">
+        <h1 class="faq-title"> Frequently Asked Questions</h1>
 
 <div id="faq">
     <div class="QA">
@@ -40,4 +41,37 @@
         </div>
 
 </div>
-<h2>Have more questions or feedback?</h2>
+</div>
+<div id="form">
+<h1 class="faq-title2">Have more questions or feedback?</h1>
+
+
+
+
+ <p class="subtitle">We'd love to hear from you. Whether you have a question about our products, or want to collaborate, we're here to help.</p>
+        
+        <!-- contact form -->
+        <form name="confirm" onsubmit="return validateForm()" method="post">
+        <div class="contact-form">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" name="name">
+            
+            <label>Email</label>
+            <input type="text" placeholder="Enter your email address" name="email">
+            
+            <label>Message</label>
+            <textarea rows="6" placeholder="Write your message here" name="code"></textarea>
+            
+           
+            
+            <button type="submit" class="submit-button">Submit your message</button>
+            
+           
+        </div>
+        </form>
+     </div>
+
+     
+
+   
+    </body>

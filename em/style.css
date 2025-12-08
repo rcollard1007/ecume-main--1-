@@ -52,65 +52,91 @@ margin: 0;
 
 /* INDEX*/
 
-                /* A new way to experience beauty*/
+                
 
 #img{
     width: 500px;
     height: 500px;
     border-radius: 100%;
-    margin-top: 50px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 70px;
     
+    padding-bottom: 15px;
 }
                                          
 #intro{
-    color: black;
+    color:  #3d3d3d;
+;
     font-family: 'Playfair Display', serif;
     text-align: right;
     font-size: 70px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
-    margin-right: 300px;
+    margin-right: 250px;
     margin-top: 100px;
 }
+#shop-button {
+    background-color: #3d3d3d;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+}
 
-                /* Where the sea meets the skin*/
+#shop-button:hover {
+    background-color: black;
+}
+                
 #it{
     margin-left: 50px;
     margin-right: 200px;
     font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
 }
 
                 /* 1  text*/
 .p{
-    color: #555;
+    color: white;
     font-size: 20px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    
+    margin-left: 200px;
+    margin-right: 200px;
     
     
 }
 #t{
-    margin-top: 300px;
-    background-color: white;
+    margin-top: 250px;
+    background: linear-gradient(to right, #86A78F, #c4b5a0);
     padding-top: 100px;
     padding-bottom: 100px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
-                /* img on the left*/
-#img{
-    float: left;
-    margin-right: 30px;
-    margin-left: 70px;
-    margin-top: 15px;
-    padding-bottom: 15px;
+                
 
-}
+
 
                 /* CONTACT*/
 #contact{
-  background-color: #F0F4F5;
+  background-color: #3d3d3d;
   text-align: center;
+  color: white;
+  padding:30px ;
+  margin-top: 50px;
 /* END OF THE INDEX PAGE*/
 
 /*ABOUT PAGE*/
@@ -255,24 +281,28 @@ margin: 0;
 
 
 /* FAQ page*/
-#faq {
-    display: flex;                /* déjà là */
-    justify-content: center;      /* centrer horizontalement */
-    gap: 30px;                    /* espace entre les boxes */
-    padding: 30px;
-    flex-wrap: wrap;              /* permet de passer à la ligne si écran trop petit */
+#faq-page{
+    
+    border-radius: 20px;
 }
+#faq {
+    display: flex;                
+    justify-content: center;      
+    gap: 30px;                    
+    padding: 30px;
+    flex-wrap: wrap;    }         
 
-.QA {                        /* nouvelle classe pour chaque box */
-    background-color: #95A786;    /* couleur de fond */
+.QA {                        
+    background-color: #95A786;    
     padding: 20px;
-    width: 400px;                  /* largeur fixe pour chaque box */
-    border-radius: 15px;            /* coins arrondis */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* ombre légère */
+    width: 400px;                  
+    border-radius: 15px;            
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
     text-align: center;
 }
-#faq-title{
+.faq-title{
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 .faq-answer{
   text-align: center;
@@ -281,7 +311,81 @@ margin: 0;
 .faq-questions{
   font-size: 17px;
 }
+#form{
+    background: #5a6b5a;
+    border-radius: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+.faq-title2{
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
 
+.contact-form {
+    background-color: white;
+    max-width: 500px;
+    margin-left: 180px;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.contact-form label {
+    
+    text-align: left;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px  ;
+    border-radius: 5px;
+    
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px  ;
+    border-radius: 5px;
+    
+    background-color: #f9f9f9;
+    font-size: 14px;
+    
+}
+
+.submit-button {
+    width: 100%;
+    background-color: #95A786;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #5a6b5a;
+}
+
+.subtitle{
+    color: white;
+     font-family: "Helvetica Neue", arial;
+     letter-spacing: 1px;
+}
  
 /* END OF FAQ PAGE*/
 
