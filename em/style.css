@@ -1,7 +1,7 @@
 
 
 body {
-margin: 0;
+
   font-family: "Helvetica Neue", arial;
   background-color: #e8e3d8;
 }
@@ -50,7 +50,7 @@ margin: 0;
 
 
 
-/* INDEX*/
+/* INDEX PAGE*/
 
                 
 
@@ -66,9 +66,9 @@ margin: 0;
     padding-bottom: 15px;
 }
                                          
-#intro{
+#quote{
     color:  #3d3d3d;
-;
+
     font-family: 'Playfair Display', serif;
     text-align: right;
     font-size: 70px;
@@ -97,7 +97,7 @@ margin: 0;
     background-color: black;
 }
                 
-#it{
+#intro{
     margin-left: 50px;
     margin-right: 200px;
     font-size: 25px;
@@ -105,7 +105,7 @@ margin: 0;
     color: #555;
 }
 
-                /* 1  text*/
+                /* text*/
 .p{
     color: white;
     font-size: 20px;
@@ -117,7 +117,7 @@ margin: 0;
     
     
 }
-#t{
+#welcome-part{
     margin-top: 250px;
     background: linear-gradient(to right, #86A78F, #c4b5a0);
     padding-top: 100px;
@@ -130,7 +130,7 @@ margin: 0;
 
 
 
-                /* CONTACT*/
+                /* FOOTER*/
 #contact{
   background-color: #3d3d3d;
   text-align: center;
@@ -146,6 +146,7 @@ margin: 0;
 
 
 /* ABOUT PAGE*/
+        /* text section*/
 #about-section{
   background: linear-gradient(to right, #5a6b5a, #c4b5a0);
   margin-top: 40px;
@@ -175,12 +176,7 @@ margin: 0;
     margin-top: 70px;
     
 }
-/* founders section */
-#founders-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #e8e3d8;}
-
+        /* founders section */
 
 #founders-title {
     color: #2d2d2d;
@@ -188,7 +184,7 @@ margin: 0;
     font-size: 36px;
     font-weight: 600;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
@@ -228,7 +224,7 @@ margin: 0;
     padding-left: 0px;
     letter-spacing: 0px;
 }
-  
+        /* join section*/
 #join-section {
     
     text-align: center;
@@ -281,10 +277,7 @@ margin: 0;
 
 
 /* FAQ page*/
-#faq-page{
-    
-    border-radius: 20px;
-}
+    /*question/answer*/
 #faq {
     display: flex;                
     justify-content: center;      
@@ -311,6 +304,8 @@ margin: 0;
 .faq-questions{
   font-size: 17px;
 }
+
+    /*contact part*/
 #form{
     background: #5a6b5a;
     border-radius: 15px;
@@ -339,7 +334,7 @@ margin: 0;
     margin-bottom: 8px;
     color: #333;
     font-size: 14px;
-    font-weight: normal;
+    
 }
 
 .contact-form input {
